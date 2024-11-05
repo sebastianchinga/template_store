@@ -1,0 +1,21 @@
+{
+    "name": "sebastian/template_store",
+    "description": "A store of templates",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Models\\": "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian",
+            "email": "jchingapalacios05@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "2.7"
+    }
+}
